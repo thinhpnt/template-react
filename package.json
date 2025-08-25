@@ -1,5 +1,5 @@
 {
-  "name": "create-z-client-common",
+  "name": "zoa-client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "bin": {
-    "create-z-client-common": "index.js"
+    "create-zoa-client": "index.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
