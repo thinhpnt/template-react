@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { ConfigProvider, theme } from "antd";
-import { Link, Outlet, createRootRoute } from '@tanstack/react-router'
+import { Outlet, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import Header from '@/components/Header'
 import { useUIStore } from '@/stores/ui.store';
