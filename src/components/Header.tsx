@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className={cn(
-      "flex justify-between items-center p-2 bg-header text-tx-primary dark:border-gray-600 dark:border-b-[0.5px]",
+      "flex justify-between items-center p-2 bg-base text-tx-primary dark:border-gray-600 dark:border-b-[0.5px]",
     )}>
       <div className="p-2 flex gap-2">
         Zalo OA

@@ -93,7 +93,7 @@ const Sidebar: React.FC = () => {
       onClick={onClick}
       className='h-full overflow-y-auto flex-shrink-0'
       style={{ width: 256, borderInlineEnd: 'none' }}
-      defaultSelectedKeys={['1']}
+      defaultSelectedKeys={['home']}
       defaultOpenKeys={['sub1']}
       mode="inline"
       items={items}

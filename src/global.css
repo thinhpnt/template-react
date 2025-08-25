@@ -4,7 +4,7 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @theme {
-  --color-header: var(--header);
+  --color-base: var(--base);
   --color-tx-primary: var(--tx-primary);
 }
 
@@ -22,11 +22,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --header: var(--color-white);
-  --tx-primary: var(--color-gray-800);
+  --base: #ffffff;
+  --tx-primary: #34495e;
 }
 
 [data-theme="dark"] {
-  --header: var(--color-gray-800);
+  --base: #34495e;
   --tx-primary: var(--color-white);
 }

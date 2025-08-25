@@ -108,3 +108,7 @@ src/
 └── vite-env.d.ts
 
  -->
+
+<!-- npm login -->
+<!-- npm publish --access public -->
+<!-- npx zoa-template-client <project-name> -->

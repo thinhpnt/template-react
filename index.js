@@ -8,7 +8,7 @@ import * as fs from "fs";
 const program = new Command();
 
 program
-  .name("create-zoa-client")
+  .name("zoa-template-client")
   .description("CLI để tạo project từ template")
   .argument("<project-name>", "Tên folder project")
   .action(async (projectName) => {
